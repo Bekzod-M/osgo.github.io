@@ -1,0 +1,375 @@
+@media(max-width: 992px){
+	.header .fa.fa-angle-right{
+		display: none;
+	}
+	.header .item_4 .items{
+		justify-content: initial;
+	}
+	.header .item_4{
+		margin: 25px 0 35px;
+	}
+	.header .header_top{
+		padding-top: 0;
+	}
+	.header .header_top{
+		justify-content: center;
+		flex-direction: column;
+		padding: 30px 0;
+	}
+	.header .header_top .item_right{
+		padding-top: 30px;
+	}
+	.header .caption .h1{
+		font-size: 22px;
+		padding: 20px 45px;
+	}
+	.section_insurance .chart .boxes {
+		display: grid;
+		grid-template-columns: 120px 1fr 1fr;
+		grid-template-rows: 100px 50px;
+		text-align: center;
+	}
+	.section_insurance .sidebar .form_right input{
+		width: 79%;
+	}
+	.section_insurance .chart .boxes .box:nth-child(2){
+		width: initial;
+	}
+	.section_insurance .reviews_about_us {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	.section_cost.page_14 .cost_text {
+		padding: 0 10px 0 0px;
+	}
+	.section_calculate .auto_img{
+		margin: 0 auto 30px;
+	}
+	.section_calculate .auto_form{
+		flex-direction: column;
+	}
+	.section_driver .drivers{
+		flex-direction: column;
+	}
+	.section_driver .drivers_image{
+		text-align: center;
+		padding-bottom: 30px;
+	}
+	.section_sponsors .boxes{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	.header.contactfon .row .text{
+		font-size: 15px;
+	}
+	.header.contactfon .row.info > div{
+		padding-bottom: 40px;
+	}
+	.section_cars .policy_number{
+		margin: 20px 0;
+	}
+	.section_cars .add_car .p_r{
+		bottom: 19px;
+	}
+	.header.about_us{
+		background-size: cover;
+	}
+	.header.part .caption_partners .h1{
+		margin-top: 100px;
+	}
+	.header.public_offer .caption_legis .h1, .header.privacy_policy .caption_legis .h1, .header.legislation .caption_legis .h1{
+		margin-top: 70px;
+	}
+}
+@media(max-width: 768px){
+	.header.bgfon{
+		height: initial;
+	}
+	.header.faq .caption_contact {
+		padding: 70px 0;
+	}
+	.input_btn_fa{
+		padding-bottom: 40px;
+	}
+	.our_partners.row .col-md-6.col-lg{
+		margin: 15px;
+		text-align: center;
+	}
+	.footer .columns{
+		margin: 10px 0;
+	}
+	.section_insurance .container{
+		display: block;
+	}
+	.section_insurance .content,
+	.section_insurance .sidebar{
+		width: initial;
+	}
+	.section_insurance .content .row,
+	.section_insurance .sidebar .row {
+		flex-wrap: wrap;
+		display: flex;
+		justify-content: center;
+		margin: 10px 0;
+	}
+	.section_insurance .sidebar .form_right input{
+		width: 93%;
+	}
+	.section_insurance .reviews_about_us {
+		grid-template-columns: 1fr 1fr;
+	}
+	.section_cost .cost_of_a_policy{
+		display: inherit;
+	}
+	.section_cost .policy_ts_head .box,
+	.section_cost .cost_of_a_policy .box{
+		display: initial;
+	}
+	.section_cost .cost_of_a_policy .box.promo{
+		padding: 40px;
+	}
+	.section_cost .promo_cod {
+		padding-top: 10px;
+	}
+	.section_cost .policy_ts .row > div,
+	.section_cost .payment_was_successful .row > div {
+		padding: 5px 15px;
+	}
+	.section_cost .gift{
+		flex-direction: column;
+		align-items: initial;
+	}
+	.section_cost .cost_of_a_policy .promo_cod_gift,
+	.section_cost .cost_of_a_policy .gift a{
+		margin-left: 0;
+	}
+	.section_cost .promo_cod_gift .lucky,
+	.section_cost .cost_of_a_policy .promo_cod_gift{
+		margin-top: 10px;
+	}
+	.section_cost .cost_text.accepted .desc{
+		text-align: left;
+	}
+	.section_calculate .form .list{
+		align-items: flex-start;
+		flex-direction: column;
+		width: initial;
+	}
+	.section_calculate .list .form-control {
+		width: 52%;
+		margin-right: 150px;
+	}
+	.section_driver .number_of_drivers .list{
+		flex-direction: column;
+	}
+	.section_driver .number_of_drivers .dropdown-toggle::after{
+		left: 240px;
+	}
+	.section_driver .number_of_drivers{
+		width: initial;
+	}
+	.section_driver .number_of_drivers .row,
+	.section_partners .our_partners,
+	.section_driver .policy_violation{
+		flex-direction: column;
+	}
+	.section_sponsors .boxes{
+		grid-template-columns: 1fr 1fr;
+	}
+	.header.contactfon .row.info > div{
+		padding-top: 50px;
+	}
+	.header.contactfon .row.info > div{
+		padding-bottom: 0;
+	}
+	.section_cars .add_car .p_r{
+		bottom: 14px;
+	}
+	.header .item_right .modal-dialog {
+		max-width: initial;
+	}
+	.gift_btn{
+		margin: 10px 0;
+	}
+	.header .caption_about_us .h1{
+		padding: 0;
+	}
+}
+@media(max-width: 480px){
+	.header .header_top{
+		padding: 20px 0;
+	}
+	.header .header_top .item_left {
+		width: initial;
+		flex-direction: column;
+		align-items: center;
+	}
+	.header .header_top .item_left .box_2{
+		display: none;
+	}
+	.header .header_top .item_right{
+		flex-direction: column;
+		width: initial;
+		padding-top: 25px;
+	}
+	.section_about_us .icons_4 {
+		display: initial;
+	}
+	.header .header_top .item_right .box_2{
+		padding-top: 30px;
+	}
+	.input_btn_fa{
+		flex-direction: column;
+	}
+	.input_btn_fa .btn_calculate {
+		margin: 10px 0;
+		width: 100%;
+		text-align: center;
+	}
+	.section_insurance .chart .boxes{
+		grid-template-columns: 1fr;
+		grid-gap: 20px;
+	}
+	.section_insurance .sidebar .form_right input{
+		width: 86%;
+	}
+	.section_insurance .insurance h2{
+		font-size: 22px;
+	}
+	.section_insurance .insurance p{
+		font-size: 12px;
+	}
+	.section_insurance .reviews_about_us {
+		grid-template-columns: 1fr;
+	}
+	.section_cost .box.promo .payme label{
+		padding: 5px 9px;
+	}
+	.section_cars .caption{
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.section_cars .caption .insurance{
+		margin: 15px 0;
+	}
+	.section_calculate .btn_add_auto,
+	.section_cars .btn_add_auto{
+		align-items: flex-start;
+		flex-direction: column;
+	}
+	.section_calculate .btn_add_auto .calculate,
+	.section_cars .btn_add_auto .calculate{
+		margin-left: 0;
+		margin-top: 15px;
+	}
+	.section_cars .dropdown-toggle::after {
+		margin-left: 0;
+	}
+	.section_cars .add_car .boxes{
+		flex-direction: column;
+	}
+	.section_cars #insurance {
+		margin: 20px 0;
+	}
+	.section_cars .nav-tabs > li {
+		margin-bottom: 15px;
+	}
+	.section_form #dropdownMenuLink p{
+		width: 240px;
+	}
+	.section_form .form_owner .caret {
+		left: 200px;
+	}
+	.section_cars .btn_save {
+		padding-top: 20px;
+		display: flex;
+		flex-direction: column;
+		width: 220px;
+	}
+	.section_cars .del_profile{
+		margin: 15px 0;
+	}
+	.section_calculate .btn_add_auto .calculate{
+		width: 100%;
+	}
+	.section_driver #dropdownMenuLink p{
+		width: 240px;
+	}
+	.section_driver .add_auto_save{
+		flex-direction: column;
+		align-items: initial;
+	}
+	.section_driver .add_auto_save .btn_save{
+		margin-top: 20px;
+	}
+	.section_driver .add_auto_save .btn_save .save_car{
+		margin-left: 0;
+	}
+	.section_driver .dropdown-toggle::after {
+		left: 210px;
+	}
+	.section_driver.beginning .start_of_action {
+		padding-left: 0;
+	}
+	.section_driver.beginning .start_of {
+		align-items: initial;
+		flex-direction: column;
+	}
+	.section_sponsors .boxes{
+		grid-template-columns: 1fr;
+		text-align: center;
+	}
+	.header .caption_contact .h1{
+		padding: 0;
+	}
+	.header .caption .h1{
+		font-size: 23px;
+		padding: 20px 10px;
+	}
+	.caret{
+		left: 220px;
+	}
+	.dropdown-menu > li {
+		width: 238px;
+	}
+	.dropdown-menu.left-40 > li{
+		width: 306px;
+	}
+	.dropdown-menu > li > a{
+		padding: 3px 5px;
+	}
+	.dropdown-menu.left-40{
+		left: -40px;
+	}
+	.dropdown-menu a{
+		font-size: 13px;
+	}
+	.header .caption_about_us .h1,
+	.header.public_offer .caption_legis .h1,
+	.header.privacy_policy .caption_legis .h1,
+	.header.legislation .caption_legis .h1{
+		padding: 0;
+		font-size: 26px;
+	}
+	.btn_add_auto{
+		flex-direction: column;
+	}
+	.btn_add_auto .auto{
+		width: 240px;
+	}
+	.btn_add_auto .calculate{
+		margin: 15px 0;
+	}
+}
+@media(max-width: 320px){
+	.input_btn_fa .fa.fa-question-circle-o{
+		margin-right: auto;
+	}
+	.section_driver .add_auto_save .fa.fa-plus{
+		padding: 14px 12px;
+	}
+	.section_driver .add_auto_save .btn_add_auto .auto{
+		padding: 11px 2px;
+	}
+	.header .item_right .registration{
+		flex-direction: column;
+	}
+}

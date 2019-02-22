@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Osgo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="libs/bootstrap3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+	<header class="header">
+		<nav class="nav">
+			<div class="container">
+				<div class="header_top">
+					<div class="item_left">
+						<div class="box_1">
+							<a href="index.html"><img src="img/logo.png" alt=""></a>
+						</div>
+						<div class="box_2">
+							<div class="box_2">
+								«OSGO – Ваш надежный помощник в страховании»
+							</div>
+							<div class="box_2">
+								«Выдано 1129 полисов с 2018 года»
+							</div>
+						</div>
+					</div>
+					<div class="item_right">
+						<input type="button" data-toggle="modal" data-target="#myModal" class="btn btn-lg btn-primary" value="Личный кабинет">
+
+						<div id="myModal" class="modal fade">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										<h4 class="modal-title">Логин</h4>
+									</div>
+									<div class="modal-body">
+										<div class="form-group">
+											<div class="box">
+												<div class="icon_popup">
+													<i class="fa fa-user"></i>
+												</div>
+												<div class="input_popup">
+													<input type="text" class="form-control" id="recipientname" placeholder="Имя пользователя">
+												</div>
+											</div>
+											<div class="box password">
+												<div class="icon_popup">
+													<i class="fa fa-lock"></i>
+												</div>
+												<div class="input_popup">
+													<input type="password" class="form-control" id="recipientname" placeholder="Пароль">
+												</div>
+											</div>
+											<button type="button" class="sigin_btn">Войти</button>
+											<div class="registration">
+												<span>
+													У вас нет учетной записи?
+												</span>
+												<span>
+													<button type="button" class="btn btn-link show-text sign_in">Зарегестрируйтесь</button>
+												</span>
+											</div>
+										</div>
+										<div class="popup_sign_in">
+											<div class="form-left">
+												Регистрация
+											</div>
+											<div class="form-group">
+												<div class="box">
+													<input type="text" class="form-control" id="recipient-name" placeholder="Имя">
+												</div>
+												<div class="box">
+													<input type="text" class="form-control" id="recipient-name" placeholder="Фамилия">
+												</div>
+												<div class="box">
+													<input type="text" class="form-control" id="recipient-name" placeholder="Имя пользователя">
+												</div>
+												<div class="box">
+													<input type="text" class="form-control" id="recipient-name" placeholder="Адрес электронной почты">
+												</div>
+												<div class="box">
+													<input type="password" class="form-control" id="recipient-name" placeholder="Пароль">
+												</div>
+												<div class="box">
+													<input type="password" class="form-control" id="recipient-name" placeholder="Подтвердите пароль">
+												</div>
+												<!-- <div class="checkbox">
+													<input type="checkbox" id="test1">
+													<label for="test1">
+														<span class="user">Я прочитал и согласен с условиями пользовательского соглашения</span>
+													</label>
+												</div> -->
+												<div class="box">
+													<button type="button" class="sigin_btn">Зарегистрироваться</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="box_2">
+							<a href="" class="language">RU</a>
+							<a href="" class="language">UZ</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main class="main">
+		<section class="section_cars">
+			<div class="container">
+
+				<ul class="nav nav-tabs caption">
+					<li class="active"><a href="#auto" data-toggle="tab">Автомобили</a></li>
+					<li><a href="#insurance" data-toggle="tab">Страховки</a></li>
+					<li><a href="#insurance_cases" data-toggle="tab">Страховые случаи</a></li>
+				</ul>
+
+				<div class="tab-content">
+					<div class="tab-pane fade in active" id="auto">
+						<div class="table-responsive">
+							<table class="table table-bordered table-hover">
+								<thead>
+									<tr>
+										<th scope="col">Марка</th>
+										<th scope="col">Модель</th>
+										<th scope="col">Год выпуска</th>
+										<th scope="col">Характеристика</th>
+										<th scope="col">Номер кузова «(VIN-код)»</th>
+										<th scope="col">Номер двигателя</th>
+										<th scope="col">Место регистрации</th>
+										<th scope="col">Рег. номер</th>
+										<th scope="col">Техпаспорт</th>
+										<th scope="col"></th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Audi</td>
+										<td>A4</td>
+										<td>2010</td>
+										<td>2.0 (210 л/с)</td>
+										<td>1241235131512</td>
+										<td>1241235131512</td>
+										<td>Ташкент</td>
+										<td>12 SDFA 123</td>
+										<td>AAC 35236</td>
+										<td>
+											<a href="">
+												<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+											</a>
+											<a href="">
+												<i class="fa fa-trash" aria-hidden="true"></i>
+											</a>
+										</td>
+									</tr>
+									<tr>
+										<td>ISUZU</td>
+										<td>X3</td>
+										<td>2010</td>
+										<td>2.0 (210 л/с)</td>
+										<td>1241235131512</td>
+										<td>1241235131512</td>
+										<td>Таш.область (киб.р)</td>
+										<td>12 SDFA 123</td>
+										<td>AAC 35236</td>
+										<td>
+											<a href="">
+												<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+											</a>
+											<a href="">
+												<i class="fa fa-trash" aria-hidden="true"></i>
+											</a>
+										</td>
+									</tr>
+									<tr>
+										<td>MAZ</td>
+										<td>T180</td>
+										<td>2010</td>
+										<td>2.0 (210 л/с)</td>
+										<td>1241235131512</td>
+										<td>1241235131512</td>
+										<td>Ферганская область</td>
+										<td>12 SDFA 123</td>
+										<td>AAC 35236</td>
+										<td>
+											<a href="">
+												<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+											</a>
+											<a href="">
+												<i class="fa fa-trash" aria-hidden="true"></i>
+											</a>
+										</td>
+									</tr>
+								</tbody>
+
+							</table>
+						</div>
+						<div class="btn_add_auto">
+							<a href="#"  class="auto">
+								<i class="fa fa-plus" aria-hidden="true"></i>
+								<button type="button" id="edit">Добавить еще авто</button>
+							</a>
+							<a href="#">
+								<button type="button" class="calculate">Рассчитать ОСГОВТС</button>
+							</a>
+						</div>
+					</div>
+
+					<div class="tab-pane fade" id="insurance">
+						<div class="table-responsive">
+							<table class="table table-bordered table-hover">
+								<thead>
+									<tr>
+										<th scope="col">Вид страхования</th>
+										<th scope="col">Модель</th>
+										<th scope="col">Лица, допущенные к управлению</th>
+										<th scope="col">Статус</th>
+										<th scope="col">Дата оформления</th>
+										<th scope="col">Действителен до</th>
+										<th scope="col">Электронный полис</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>ОСГОВТС</td>
+										<td>Audi A4</td>
+										<td>Иванов И.И. ЛК415163</td>
+										<td>Дейсвующий</td>
+										<td>11.01.2017</td>
+										<td>16.02.2016</td>
+										<td class="link">Ссылка на полис</td>
+									</tr>
+									<tr>
+										<td>ОСГОВТС</td>
+										<td>BMW X3</td>
+										<td>Иванов И.И. ЛК415163</td>
+										<td>Истекший</td>
+										<td>16.02.2016</td>
+										<td>11.01.2017</td>
+										<td class="link">Ссылка на полис</td>
+									</tr>
+								</tbody>
+
+							</table>
+						</div>
+						<div class="btn_add_auto">
+							<a href=""  class="auto">
+								<i class="fa fa-plus" aria-hidden="true"></i>
+								<button type="button" id="edit">Заказать новый полис</button>
+							</a>
+						</div>
+					</div>
+
+					<div class="tab-pane fade" id="insurance_cases">
+						<div class="table-responsive">
+							<table class="table table-bordered table-hover">
+								<thead>
+									<tr>
+										<th scope="col">Дата</th>
+										<th scope="col">Номер полиса</th>
+										<th scope="col">Водитель</th>
+										<th scope="col">Описание ДТП</th>
+										<th scope="col">Описание повреждений</th>
+										<th scope="col">Отчет</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>11.10.2016</td>
+										<td>GU125935</td>
+										<td>ФИО, серия и номер его водительских прав</td>
+										<td>г. Ташкент на перекрестке ул. Бешарик и ул. Авиасозлар случилась авария с  Daewoo Matiz</td>
+										<td></td>
+										<td class="link">Ссылка на полис</td>
+									</tr>
+									<tr>
+										<td>24.07.2017</td>
+										<td>GU125935</td>
+										<td>ФИО, серия и номер его водительских прав</td>
+										<td>г. Ташкент на перекрестке ул. Бешарик и ул. Авиасозлар случилась авария с  Daewoo Matiz</td>
+										<td></td>
+										<td class="link">Ссылка на полис</td>
+									</tr>
+								</tbody>
+
+							</table>
+						</div>
+						<div class="btn_add_auto">
+							<a href=""  class="auto">
+								<i class="fa fa-plus" aria-hidden="true"></i>
+								<button type="button" id="edit">Добавить случай</button>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section_partners">
+			<div class="container">
+				<div class="title"><span>Наши партнеры</span></div>
+				<div class="row our_partners owl-carousel">
+					<div class="col-md-6 col-lg">
+						<a href="http://alfainvest.uz/" target="_blank">
+							<img src="img/partners1.png" alt="">
+						</a>
+					</div>
+					<div class="col-md-6 col-lg">
+						<a href="http://alskom.uz/ru/" target="_blank">
+							<img src="img/partners2.png" alt="">
+						</a>
+					</div>
+					<div class="col-md-6 col-lg">
+						<a href="https://asiainsurance.uz/" target="_blank">
+							<img src="img/partners3.png" alt="">
+						</a>
+					</div>
+					<div class="col-md-6 col-lg">
+						<a href="https://gross.uz/" target="_blank">
+							<img src="img/partners4.png" alt="">
+						</a>
+					</div>
+					<div class="col-md-6 col-lg">
+						<a href="http://www.kafolat.uz/ru/" target="_blank">
+							<img src="img/partners5.png" alt="">
+						</a>
+					</div>
+					<div class="col-md-6 col-lg">
+						<a href="http://ishonch-msk.uz/" target="_blank">
+							<img src="img/partners6.png" alt="">
+						</a>
+					</div>
+					<div class="col-md-6 col-lg">
+						<a href="https://www.kapitalsugurta.uz/" target="_blank">
+							<img src="img/partners7.png" alt="">
+						</a>
+					</div>
+					<div class="col-md-6 col-lg">
+						<a href="http://www.uns.uz/" target="_blank">
+							<img src="img/partners8.png" alt="">
+						</a>
+					</div>
+					<div class="col-md-6 col-lg">
+						<a href="http://agros.uz/" target="_blank">
+							<img src="img/partners9.png" alt="">
+						</a>
+					</div>
+					<div class="col-md-6 col-lg">
+						<a href="http://www.uzbekinvest.uz/ru" target="_blank">
+							<img src="img/partners10.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="icon_arrow col-sm-9 col-md-4">
+					<div class="icons-fa">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-vk"></i></a>
+						<a href="#"><i class="fa fa-envelope"></i></a>
+					</div>
+					<div class="arrow">
+						<div class="arrow_text">
+							<p>«Оставайтесь на связи»</p>
+						</div>
+					</div>
+				</div>
+				<div class="columns col-xs-7 col-sm-4">
+					<a href="faq.html">Часто задаваемые вопросы</a>
+					<a href="partners.html">Партнеры</a>
+					<a href="contact.html">Обратная связь</a>
+					<a href="about_us.html">О нас</a>
+				</div>
+				<div class="columns col-xs-7 col-sm-4">
+					<a href="legislation.html">Законодательство</a>
+					<a href="privacy_policy.html">Политика конфиденциальности</a>
+					<a href="public_offer.html">Публичная оферта</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="all_right">
+		2018 © osgo.uz  All right reserved
+	</div>
+
+	<script src="libs/jquery/jquery-3.3.1.min.js"></script>
+	<script src="libs/owlcarousel/owl.carousel.min.js"></script>
+	<script src="libs/bootstrap3/js/bootstrap.min.js"></script>
+	<script src="libs/js/script.js"></script>
+</body>
+</html>
